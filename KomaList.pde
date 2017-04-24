@@ -1,6 +1,6 @@
   class KomaList {
     AbstractKoma[] komaArray = new AbstractKoma[10];
-  GameStatus gs;
+ 
     KomaList() {
       komaArray[0] = new Hiyoko("hiyoko", 2, 1, 0, true);
       komaArray[1] = new Hiyoko("hiyoko", 3, 1, 1, true);
